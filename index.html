@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <title>Hello from Electron renderer!</title>
+</head>
+
+<body>
+  <h1>Hello from Electron renderer!</h1>
+  <p>👋</p>
+  <p id="rawid"></p>
+  <p id="salt1"></p>
+  <button id="btn1" type="button">Create key</button>
+  <hr />
+  <hr />
+  <button id="btn2" type="button">Get Secret with salt1</button>
+  <p id="secret"></p>
+  <p>👋</p>
+</body>
+<script src="./renderer.js"></script>
+
+
+</html>
